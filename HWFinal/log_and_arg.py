@@ -81,7 +81,7 @@ class Rectangle:
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Принимаем число c шириной и высотой прямоугольника', )
+    parser = argparse.ArgumentParser(description='Принимаем число c шириной и высотой прямоугольника')
     parser.add_argument('-wid', metavar='W', type=int, help='Ширина прямоугольника', default=1)
     parser.add_argument('-hei', metavar='H', type=int, help='Высота прямоугольника', default=1)
 

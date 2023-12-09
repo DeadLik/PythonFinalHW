@@ -87,8 +87,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    wid = args.wid
-    hei = args.hei
+    wid, hei = args.wid, args.hei
 
     rc = Rectangle(wid, hei)
     print(rc)

@@ -89,5 +89,4 @@ if __name__ == '__main__':
 
     wid, hei = args.wid, args.hei
 
-    rc = Rectangle(wid, hei)
-    print(rc)
+    print(Rectangle(wid, hei))
